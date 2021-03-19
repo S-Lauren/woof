@@ -1,11 +1,10 @@
 # **Woof🐶🦮🐕‍🦺**
 
 **RUN Command on MYSQL CLI**
- 
+
 mysql -u root -p mydb < dummy_data_test.sql
 
-
-# Create Table Script 
+# Create Table Script
 
 -> woofing.sql
 
@@ -13,11 +12,9 @@ mysql -u root -p mydb < dummy_data_test.sql
 
 -> dummy_data_test.sql
 
+# Stored procedure
 
-- NB request : 
-
- ***SELECT * FROM host LEFT JOIN user_account ON  host.user_account_id = user_account.id***
-
-
-
-
+-> volunteer_procedure.sql
+-> worksite_procedure.sql
+-> activity_procedure.sql
+-> skill_level_procedure.sql
